@@ -5,8 +5,12 @@ function Carousel() {
   return (
     <div className="carousel-bg">
       <div
-        className="carousel w-full h-full object-cover mix-blend-overlay"
-        style={{ background: `url(${bg.src})`, backgroundSize: "cover" }}
+        className="carousel h-full md:h-120v xl:h-130v w-full mix-blend-overlay"
+        style={{
+          background: `url(${bg.src})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
       >
         <Navbar />
         <div className="grid h-5/6 con">

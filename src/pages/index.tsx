@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Carousel from "@/components/Carousel";
 import Collection from "@/components/Collection";
+import GalacticMap from "@/components/GalacticMap";
+import Archives from "@/components/Archives";
 export default function Home() {
   return (
     <>
@@ -13,6 +15,8 @@ export default function Home() {
 
       <Carousel />
       <Collection />
+      <GalacticMap />
+      <Archives />
     </>
   );
 }
