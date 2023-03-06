@@ -16,6 +16,12 @@ module.exports = {
         "100v": "100vh",
         "110v": "110vh",
         "120v": "120vh",
+        "130v": "130vh",
+        "140v": "140vh",
+        "150v": "150vh",
+        "160v": "160vh",
+        "170v": "170vh",
+        "180v": "180vh",
       },
       width: {
         "10v": "10vw",
@@ -31,6 +37,18 @@ module.exports = {
       },
       fontFamily: {
         bugfast: ["Bugfast", "Sans"],
+      },
+      fontSize: {
+        head: "6.5rem",
+      },
+      margin: {
+        "30n": "-30px",
+        "40n": "-40px",
+        "50n": "-50px",
+        "60n": "-60px",
+        "70n": "-70px",
+        "80n": "-80px",
+        "90n": "-90px",
       },
     },
   },

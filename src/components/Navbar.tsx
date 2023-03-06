@@ -92,22 +92,22 @@ function Navbar() {
             isOpen ? "grid" : "hidden"
           }`}
         >
-          <li className="hover:bg-red-200 rounded-md px-2">
+          <li className="hover:bg-red-200 rounded-md p-2">
             <span>HOME</span>
           </li>
-          <li className="hover:bg-red-200 rounded-md px-2">
+          <li className="hover:bg-red-200 rounded-md p-2">
             <span>COLLECTIONS</span>
           </li>
-          <li className="hover:bg-red-200 rounded-md px-2">
+          <li className="hover:bg-red-200 rounded-md p-2">
             <span>HOLOMAP</span>
           </li>
-          <li className="hover:bg-red-200 rounded-md px-2">
+          <li className="hover:bg-red-200 rounded-md p-2">
             <span>LORE</span>
           </li>
-          <li className="hover:bg-red-200 rounded-md px-2">
+          <li className="hover:bg-red-200 rounded-md p-2">
             <span>ARCADE</span>
           </li>
-          <li className="hover:bg-red-200 rounded-md px-2">
+          <li className="hover:bg-red-200 rounded-md p-2">
             <span>ABOUT</span>
           </li>
           <li className="text-md text-white">
