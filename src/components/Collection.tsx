@@ -3,7 +3,8 @@ import bg from "../../public/ssd-collection-bg-01.jpg";
 function Collection() {
   const COLLECTION_ICONS: { src: string }[] = [
     { src: "/aurora-collection-icon-01.png" },
-    { src: "/ssd-collection-icon-01.png" },
+    { src: "/aurora-collection-icon-01.png" },
+    // { src: "/ssd-collection-icon-01.png" },
     { src: "/lucifer-collection-icon-01.png" },
   ];
   return (
@@ -45,31 +46,17 @@ function Collection() {
         <div className="">
           <div className="group-1 grid grid-cols-3">
             {COLLECTION_ICONS.map((el, i) => {
-              if (i === 1) {
-                return (
-                  <div key={i}>
-                    <Image
-                      className="icon-gray"
-                      src={el.src}
-                      alt="collection-icon"
-                      height={170}
-                      width={170}
-                    />
-                  </div>
-                );
-              } else {
-                return (
-                  <div key={i}>
-                    <Image
-                      className="icon-gray"
-                      src={el.src}
-                      alt="collection-icon"
-                      height={200}
-                      width={200}
-                    />
-                  </div>
-                );
-              }
+              return (
+                <div key={i}>
+                  <Image
+                    className="icon-gray"
+                    src={el.src}
+                    alt="collection-icon"
+                    height={200}
+                    width={200}
+                  />
+                </div>
+              );
             })}
           </div>
           <div className="group-2 mt-10 flex justify-end space-x-8">
