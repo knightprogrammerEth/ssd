@@ -5,12 +5,16 @@ function Carousel() {
   return (
     <div className="carousel-bg">
       <div
-        className="carousel w-full h-full object-cover mix-blend-overlay"
-        style={{ background: `url(${bg.src})`, backgroundSize: "cover" }}
+        className="carousel h-full md:h-120v xl:h-130v w-full mix-blend-overlay"
+        style={{
+          background: `url(${bg.src})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
       >
         <Navbar />
         <div className="grid h-5/6 con">
-          <div className="main flex flex-col space-y-10 p-10 lg:p-0 lg:ml-40 place-content-center">
+          <div className="main-section flex flex-col space-y-10 p-10 lg:p-0 lg:ml-40 place-content-center">
             <div className="content grid grid-cols-1 gap-y-4 lg:w-40v">
               <Image
                 src="/ssd-logo-01.png"
