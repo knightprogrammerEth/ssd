@@ -20,6 +20,20 @@ body {
   /* overflow-x: hidden;
   width: 100vw; */
 }
+.outer-hex {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.inner-hex {
+  clip-path: inherit;
+
+}
+.box {
+  height: 100px;
+  width: 100px;
+  background: red;
+  clip-path: path(
+    "M38,2 L82,2 A12,12 0 0,1 94,10 L112,44 A12,12 0 0,1 112,56 L94,90 A12,12 0 0,1 82,98 L38,98 A12,12 0 0,1 26,90 L8,56 A12,12 0 0,1 8,44 L26,10 A12,12 0 0,1 38,2");
+}
 .btn-con-wallet{
   clip-path: polygon(10% 0%, 100% 0, 100% 75%, 90% 100%, 0 100%, 0 25%);
 }
@@ -1096,3 +1110,7 @@ body {
   }
 
 }
+
+/* .main {
+  transform: rotate(-90deg)
+} */

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,10 +17,14 @@ function Navbar() {
         <div>
           <ul className="flex lg:space-x-3 xl:space-x-5 w-full text-white items-center 2xl:text-xl">
             <li className="cursor-pointer hover:border-white hover:border-b-2">
-              <span>HOME</span>
+              <Link href="/">
+                <span>HOME</span>
+              </Link>
             </li>
             <li className="cursor-pointer hover:border-white hover:border-b-2">
-              <span>COLLECTIONS</span>
+              <Link href="/collections">
+                <span>COLLECTIONS</span>
+              </Link>
             </li>
             <li className="cursor-pointer hover:border-white hover:border-b-2">
               <span>HOLOMAP</span>
